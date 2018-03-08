@@ -255,7 +255,7 @@
   }
   
   .hp-box input::-webkit-input-placeholder {
-    color: #ddd
+    color: rgb(236, 233, 233)
   }
   
   .hp-box input::-ms-input-placeholder {
