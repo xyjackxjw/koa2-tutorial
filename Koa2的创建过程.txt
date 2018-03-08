@@ -1,0 +1,24 @@
+➜  node -v v9.6.1
+➜  npm -v  5.6.0
+
+3月八号，进入Koa2 ,先按icamp上的视频搞一搞 koa2-tutorial
+
+1. 首先，创建一个目录 koa2-tutorial/ 用来存放我们的代码。然后开始初始化项目：
+
+// 创建 package.json 文件。该文件用于管理项目中用到一些安装包
+npm init
+
+2. 安装 Koa （版本信息会自动保存在 package.json 中）
+
+// 安装 koa，并将版本信息保存在 package.json 中
+npm i koa -S
+
+3. 通过 npm 命令直接安装其它插件：
+npm i koa-router -S
+npm i koa-bodyparser -S
+npm i koa-static -S
+npm i koa-nunjucks-2 -S
+-S 或者 --save 是为了安装完成之后能够在 package.json 的 dependencies 中保留 koa-router，以便于下次只需要执行 npm i 或者 npm install 就能够安装所有需要的依赖包。
+
+4. 
+
